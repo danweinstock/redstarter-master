@@ -1,0 +1,77 @@
+.journal-archive-title{
+	color:#fff;
+	background-color: $main__green;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-family: Novecento-Bold;
+	position: absolute;
+	top: 3em;
+	width:calc(100%/3);
+}
+.journal-archive-header{
+	position: relative;
+}
+.journal-archive-header{
+	img{
+		margin-top: 3em;
+	}
+}
+.journal-archive-meta{
+	color:#fff;
+	background-color: $main__green;
+	position: absolute;
+	bottom:2%;
+	left: 19em;
+}
+.journal-archive-content{
+	font-family: Merriweather-Light;
+	width: 75%;
+}
+.journal-archive-article{
+	margin-left: 2em;
+}
+.journal-archive-button{
+	border: $solid__border;
+	background-color:#fff;
+	padding: 1em 2em;
+	margin-bottom: 3em;
+}
+.journal-archive-button a{
+	color:#000;
+}
+.single-journal-entry img{
+	display: none;
+}
+.single-journal-post{
+	margin-left: 2em;
+}
+.single-journal-meta{
+	color:#fff;
+	background-color: $main__green;
+	position: absolute;
+	top:38em;
+	left: 30em;
+	font-size:0.8em;
+	font-family:Novecento;
+}
+.single-journal-post{
+	header{
+		img{
+			position: relative;
+			margin-top: 3em;
+			max-height: 427px;
+		}
+	}
+}
+.single-journal-entry{
+	width: 50%;
+}
+.single-journal-title{
+	color:white;
+	background:$main__green;
+	width:15em;
+	position:absolute;
+	top: 4em;
+	font-family: Novecento;
+	font-size:1.2em
+}

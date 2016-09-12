@@ -1,0 +1,46 @@
+img.tent-pos{
+	position: absolute;
+}
+img.logo-position{
+	position:absolute;
+	top:40%;
+	right:40%;
+}
+header{
+	li.menu-item {
+		a{
+		color: $main__green;
+		}
+	}
+		.logo{
+			background-image: url("../../images/logos/inhabitent-logo-tent.svg");
+			height: 133px;
+			width: 200px;
+			position:absolute;
+			background-size: 25%;
+			background-repeat: no-repeat;
+		}
+}
+header.is-home{
+	li.menu-item {
+		a{
+			color: #fff;
+		}
+	}
+	.logo{
+			background-image: url("../../images/logos/inhabitent-logo-tent-white.svg");
+			height: 133px;
+			width: 200px;
+			position:absolute;
+			z-index: 1;
+			background-size: 40%;
+			background-repeat: no-repeat;
+		}
+		.hero{
+			background-image: url("../../images/home-hero.jpg");
+			width: 100%;
+			height: 500px;
+			position:relative;
+			background-size: 100%;
+		}
+}

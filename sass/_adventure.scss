@@ -1,0 +1,106 @@
+.full-adventure{
+	position:relative
+}
+.full-adventure{
+	.read-adventure{
+		top: 20%;
+	}
+}
+.half-adventure{
+	font-size: 15px;
+}
+.half-adventure{
+	.read-adventure{
+		top: 30%;
+	}
+}
+.quarter-adventure{
+	width: 25%;
+	font-size: 12px;
+}
+.quarter-adventure{
+	.read-adventure{
+		top: 35%;
+	}
+}
+.adventure-main{
+	ul{
+		margin:0;
+	}
+}
+.adventure-archive-header{
+	img{
+		height: 20em;
+		width: 20em;
+	}
+}
+.adventure-archive-article{
+	flex-basis: 25em;
+	position:relative;
+}
+.adventure-archive-title{
+	position:absolute;
+	top: 0;
+	color:#fff;
+	width:55%;
+	font-family:Merriweather-Light;
+	margin-left: 1em;
+
+}
+.adventure-screen{
+	width: 1168px;
+	margin: 0 auto;
+}
+.adventure-archive-top{
+	padding-top: 2em;
+	text-align:center;
+	border-bottom: $solid__border;
+}
+.adventure-archive-button{
+	position: absolute;
+	top: 13em;
+	margin-left: 1em;
+	background: transparent;
+	a{
+		color: #fff;
+		font-family: Novecento;
+	}
+}
+.single-adventure-content{
+	margin: 0 5em;
+	font-family: Merriweather-Light;
+	p{
+		img{
+			display: none;
+		}
+	}
+}
+.single-adventure-header{
+	img{
+		width: 100vw;
+	}
+}
+.single-adventure-author{
+	margin: 0 5em;
+	text-transform: uppercase;
+}
+.single-adventure-title{
+	text-transform: uppercase;
+	font-family: Novecento-Bold;
+	font-size: 1.3em;
+	margin: 0 3.8em;
+}
+.adventure-item{
+	height: 500px;
+	background-size: 100% !important;
+	background-repeat: no-repeat;
+	width: 50%;
+	float:left;
+	&.half-adventure{
+		height: 250px;
+	}
+	&.quarter-adventure{
+		height: 250px;
+		max-width: 25%;
+	}
+}
