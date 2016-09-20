@@ -6,6 +6,7 @@
  */
 
 ?>
+Archive page
 <?php if(is_post_type_archive( 'Journal')); ?>
 <?php
 $args = array('post_type'=>'Journal');

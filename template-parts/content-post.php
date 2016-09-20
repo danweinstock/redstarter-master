@@ -1,3 +1,4 @@
+
 <?php
 /**
  * Template part for displaying single posts.
@@ -6,6 +7,7 @@
  */
 
 ?>
+I'm a post
 	<?php red_starter_title("echo") ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">

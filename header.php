@@ -19,13 +19,8 @@
 	<body <?php body_class(); ?>>
 		<div id="page" class="hfeed site">
 			<a class="skip-link screen-reader-text" href="#content"><?php esc_html( 'Skip to content' ); ?></a>
-<?php $class = "";
-	if(is_home()):{
-		$class = "is-home";
-	}
-	?>
-<?php endif ?>
-			<header id="masthead" class="site-header <?php echo $class ?>" role="banner">
+
+			<header id="masthead" class="site-header role="banner">
 				<div class="site-branding"></div>
 				<div class="logo"></div>
 				<div class="hero"></div>

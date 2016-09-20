@@ -424,12 +424,6 @@ ul li {
 .social-buttons button {
   background: #fff; }
 
-.about-header {
-  background-image: url("../../images/about-hero.jpg");
-  height: 500px;
-  background-size: 100%;
-  background-repeat: no-repeat; }
-
 .about-body {
   text-align: center; }
   .about-body p {
@@ -648,7 +642,7 @@ textarea {
   .main-navigation ul {
     display: none;
     list-style: none;
-    margin: 0;
+    margin: 0 5rem 0 0;
     padding-left: 0; }
     .main-navigation ul ul {
       box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -895,24 +889,54 @@ header .logo {
   background-size: 25%;
   background-repeat: no-repeat; }
 
-header.is-home li.menu-item a {
+.home li.menu-item a {
   color: #fff; }
 
-header.is-home .logo {
+.home .logo {
   background-image: url("../../images/logos/inhabitent-logo-tent-white.svg");
   height: 133px;
   width: 200px;
   position: absolute;
   z-index: 1;
-  background-size: 40%;
+  background-size: 30%;
   background-repeat: no-repeat; }
 
-header.is-home .hero {
+.home .hero {
   background-image: url("../../images/home-hero.jpg");
   width: 100%;
   height: 500px;
   position: relative;
   background-size: 100%; }
+
+.page-id-57 li.menu-item a {
+  color: #fff; }
+
+.page-id-57 .logo {
+  background-image: url("../../images/logos/inhabitent-logo-tent-white.svg");
+  height: 133px;
+  width: 200px;
+  position: absolute;
+  z-index: 1;
+  background-size: 30%;
+  background-repeat: no-repeat; }
+
+.page-id-57 .about-header {
+  background-image: url("../../images/about-hero.jpg");
+  height: 500px;
+  background-size: 100%;
+  background-repeat: no-repeat; }
+
+.single-adventures li.menu-item a {
+  color: #fff; }
+
+.single-adventures .logo {
+  background-image: url("../../images/logos/inhabitent-logo-tent-white.svg");
+  height: 133px;
+  width: 200px;
+  position: absolute;
+  z-index: 1;
+  background-size: 30%;
+  background-repeat: no-repeat; }
 
 .journal-archive-title {
   color: #fff;
@@ -1076,4 +1100,83 @@ header.is-home .hero {
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
+/*Site wide*/
+.site {
+  width: 72rem;
+  margin: auto; }
+
+footer {
+  clear: both; }
+
 /* Front page */
+/*single-journal*/
+.single-journal .site:after {
+  clear: both; }
+
+.single-journal .content-area {
+  width: 70%;
+  float: left;
+  padding-top: 3em; }
+
+.single-journal .widget-area {
+  margin: auto;
+  width: 30%;
+  float: left;
+  padding-top: 3em; }
+
+.single-journal .journal-single-upper {
+  position: relative; }
+  .single-journal .journal-single-upper .journal-single-title, .single-journal .journal-single-upper .journal-single-info {
+    position: absolute;
+    background: #248A83;
+    color: #fff;
+    font-family: Novecento; }
+  .single-journal .journal-single-upper .journal-single-info {
+    bottom: 0.5em;
+    right: 10.4em; }
+  .single-journal .journal-single-upper .journal-single-title {
+    text-transform: uppercase;
+    padding: 1em;
+    font-size: 1.1rem;
+    width: 40%; }
+
+/*Single Products page*/
+.product-single-text, .product-single-pic {
+  float: left;
+  padding-top: 3rem; }
+
+.product-single-pic {
+  width: 50%;
+  margin: 1rem; }
+
+.product-single-text {
+  width: 45%; }
+  .product-single-text p {
+    font-size: 0.9rem; }
+
+.product-single-title {
+  color: #d99054;
+  font-family: Novecento, sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem; }
+
+.single-products button {
+  border: 1px solid #000000;
+  border-radius: 0; }
+
+.single-adventures img {
+  width: 100%; }
+
+.single-adventures button {
+  border: 1px solid #000000;
+  border-radius: 0;
+  margin-bottom: 1em; }
+
+.adventure-single-text {
+  width: 80%;
+  margin: auto; }
+
+.adventure-single-title {
+  text-transform: uppercase;
+  font-family: Novecento-Bold,sans-serif;
+  font-size: 1.5rem; }

@@ -21,7 +21,30 @@ header{
 			background-repeat: no-repeat;
 		}
 }
-header.is-home{
+// header.is-home{
+// 	li.menu-item {
+// 		a{
+// 			color: #fff;
+// 		}
+// 	}
+// 	.logo{
+// 			background-image: url("../../images/logos/inhabitent-logo-tent-white.svg");
+// 			height: 133px;
+// 			width: 200px;
+// 			position:absolute;
+// 			z-index: 1;
+// 			background-size: 40%;
+// 			background-repeat: no-repeat;
+// 		}
+// 		.hero{
+// 			background-image: url("../../images/home-hero.jpg");
+// 			width: 100%;
+// 			height: 500px;
+// 			position:relative;
+// 			background-size: 100%;
+// 		}
+// }
+.home{
 	li.menu-item {
 		a{
 			color: #fff;
@@ -33,7 +56,7 @@ header.is-home{
 			width: 200px;
 			position:absolute;
 			z-index: 1;
-			background-size: 40%;
+			background-size: 30%;
 			background-repeat: no-repeat;
 		}
 		.hero{
@@ -42,5 +65,43 @@ header.is-home{
 			height: 500px;
 			position:relative;
 			background-size: 100%;
+		}
+}
+.page-id-57{
+	li.menu-item{
+		a{
+			color:#fff;
+		}
+	}
+	.logo{
+			background-image: url("../../images/logos/inhabitent-logo-tent-white.svg");
+			height: 133px;
+			width: 200px;
+			position:absolute;
+			z-index: 1;
+			background-size: 30%;
+			background-repeat: no-repeat;
+		}
+		.about-header{
+			background-image:url("../../images/about-hero.jpg");
+			height: 500px;
+			background-size: 100%;
+			background-repeat: no-repeat;
+		}
+}
+.single-adventures{
+	li.menu-item{
+		a{
+			color:#fff;
+		}
+	}
+		.logo{
+			background-image: url("../../images/logos/inhabitent-logo-tent-white.svg");
+			height: 133px;
+			width: 200px;
+			position:absolute;
+			z-index: 1;
+			background-size: 30%;
+			background-repeat: no-repeat;
 		}
 }
