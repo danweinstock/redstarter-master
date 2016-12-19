@@ -1,11 +1,3 @@
-img.tent-pos{
-	position: absolute;
-}
-img.logo-position{
-	position:absolute;
-	top:40%;
-	right:40%;
-}
 header{
 	li.menu-item {
 		a{
@@ -19,31 +11,9 @@ header{
 			position:absolute;
 			background-size: 25%;
 			background-repeat: no-repeat;
+			top:2em;
 		}
 }
-// header.is-home{
-// 	li.menu-item {
-// 		a{
-// 			color: #fff;
-// 		}
-// 	}
-// 	.logo{
-// 			background-image: url("../../images/logos/inhabitent-logo-tent-white.svg");
-// 			height: 133px;
-// 			width: 200px;
-// 			position:absolute;
-// 			z-index: 1;
-// 			background-size: 40%;
-// 			background-repeat: no-repeat;
-// 		}
-// 		.hero{
-// 			background-image: url("../../images/home-hero.jpg");
-// 			width: 100%;
-// 			height: 500px;
-// 			position:relative;
-// 			background-size: 100%;
-// 		}
-// }
 .home{
 	li.menu-item {
 		a{
@@ -67,6 +37,7 @@ header{
 			background-size: 100%;
 		}
 }
+// I think this is the single product page class
 .page-id-57{
 	li.menu-item{
 		a{

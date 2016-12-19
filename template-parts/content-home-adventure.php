@@ -1,5 +1,3 @@
-<h2 class="content-heading">Latest Adventures</h2>
-
 <?php
 $args = array('posts_per_page' =>4,'post_type'=>'Adventures');
 	$myposts=get_posts($args);
@@ -22,7 +20,7 @@ class get_adv_class{
 	}
 }
 ?>
-<div class="flex flex-wrap">
+
 <?php foreach ( $myposts  as $post ) : setup_postdata( $post );   ?>
 	<?php $class->count=$i; ?>
 	<div class="adventure-item <?php echo $class->get_class(); ?>" style="background-image:url(<?php the_post_thumbnail_url()?>)" >
@@ -33,4 +31,3 @@ class get_adv_class{
 	</div>
 	<?php $i++; ?>
 <?php endforeach; wp_reset_postdata(); ?>
-</div>

@@ -19,7 +19,7 @@ get_header(); ?>
 
 				// If comments are open or we have at least one comment, load up the comment template.
 
-				if ((get_post_type()=="Journal" && comments_open() || get_comments_number())) :
+				if ((get_post_type()=="journal" && comments_open() || get_comments_number())) :
 					comments_template();
 				endif;
 			?>

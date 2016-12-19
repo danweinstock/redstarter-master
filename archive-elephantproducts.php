@@ -20,17 +20,28 @@ get_header(); ?>
 				?>
 			</header><!-- .page-header -->
 				<h2 class="archive-product-title">SHOP STUFF</h2>
+				<div class="product-terms">
+				<?php $terms = get_terms("type");
+					foreach($terms as $typeterm){
+					$type_name = ($typeterm ->name);
+					echo " ";
+					$type_link = strtolower(get_term_link($typeterm ->name, "type"));
+					// echo($type_link);
+					echo"<a href = '".$type_link."'>".$type_name."</a>";
+					}
+				?>
+			</div>
 			<?php /* Start the Loop */ ?>
-			<div class="flex flex-wrap space-around archive-product-container">
+			
 				
 			<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php
-					get_template_part( 'template-parts/content','archive-products' );
-				?>
+				
+					<?php get_template_part('template-parts/content', get_post_type());?>
+				
 
 			<?php endwhile; ?>
-			</div>
+			
 		
 			<?php the_posts_navigation(); ?>
 

@@ -45,8 +45,19 @@
 			width: 40%;
 		}
 	}
+	button{
+		border: $button__border;
+		border-radius: 0;
+		margin-bottom: 2em;
+	}
+}
+.journal-category{
+	margin-right: 2em;
 }
 
+.category-content, .tag-content{
+	color: $main__green;
+}
 /*Single Products page*/ 
 .product-single-text, .product-single-pic{
 	float:left;
@@ -93,3 +104,163 @@
 	font-family:Novecento-Bold,sans-serif;
 	font-size: 1.5rem;
 }
+
+/* post-type-archive-journal  */
+.post-type-archive-journal{
+	.site{
+		.content-area{
+			width: 70%;
+			float: left;
+			padding-top: 3em;
+		}
+		.widget-area{
+			margin: auto;
+			width: 30%;
+			float:left;
+			padding-top: 3em;
+		}
+		.journal-archive-upper{
+			position: relative;
+		}
+		.journal-archive-title, .journal-archive-info{
+			position: absolute;
+			color:#fff;
+			background: $main__green;
+			font-family: Novecento;
+		}	
+		.journal-archive-title{
+			padding: 1rem;
+			font-size: 1.1rem;
+			top: 1rem;
+			width: 35%;
+		}	
+		.journal-archive-info{
+			bottom:0.7em;
+			right: 13em;
+			font-size: 0.8rem;
+		}
+		button{
+		border: $button__border;
+		border-radius: 0;
+		margin-bottom: 2em;
+		background:#fff
+	}
+	}
+}
+/*post-type-archive-adventures*/
+.post-type-archive-adventures{
+	.content-area{
+		padding-top: 2em;
+	}
+	.adventure-page-title{
+		padding: 1em 0;
+		text-align: center;
+		text-transform: uppercase;
+		font-family: Novecento-Bold;
+		border-bottom: $solid__border;
+		border-top: $solid__border;
+	}
+	.adventure-archive-content{
+		position: relative;
+		flex-basis: 35%;
+		margin-right: 1rem;
+		margin-bottom: 1rem;
+		img{
+			height: 100%;
+			width: 100%;
+		}
+	}
+	.overlay-color{
+		position:absolute;
+		height: 100%;
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.1);
+		z-index: 1;
+		top: 0;
+	}
+	.adventure-archive-title, .adventure-archive-button{
+		position: absolute;
+	}
+	.adventure-archive-title{
+		top: 0;
+		color:#fff;
+		font-size: 1rem;
+		width: 18rem;
+		font-family: Merriweather-Light;
+		margin-left:1em;
+	}
+	.adventure-archive-button{
+		top: 10em;
+		left:0;
+	}
+} 
+
+/*Product Archive*/
+
+.shop-heading{
+text-align: center;
+border-top: $solid__border;
+margin-top: 3em;
+}
+.product-terms{
+	text-align: center;
+	border-bottom: $solid__border;
+	margin-bottom: 2em;
+	padding-bottom: 1em;
+	a{
+		color: $main__green;
+		text-transform: uppercase;
+		margin-right: 1em;
+	}
+}
+.archive-product-area{
+	margin: 0 6em;
+}
+// .archive-product-pic{
+// 	img{
+// 		margin: 1rem;
+// 	}
+// } 
+.archive-product-text{
+	border: $solid__border;
+	margin-bottom: 1em;
+}
+.archive-product-title, .archive-product-price{
+	font-size: 0.9rem;
+}
+
+.tax-Type{
+	.archive-product-area{
+		margin-top: 2em;
+	}
+	.product-terms{
+		padding-top: 6em;
+		position: relative
+	}
+}
+
+/*404 page*/
+.error-404{
+	fieldset{
+		border: none;
+	}
+	input[type=search]{
+		background: #DCDCDC;
+	}
+	input[type=search]::-webkit-input-placeholder{
+		color:#808080;
+		font-family: Merriweather-Light;
+	}
+	.widget{
+		ul{
+			margin: 0;
+			padding: 0;
+			li{
+				a{
+					color: $main__green;
+					font-family: Merriweather-Light;
+				}
+			}
+		}
+	}
+} 

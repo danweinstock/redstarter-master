@@ -25,7 +25,9 @@ get_header(); ?>
 
 					<?php the_widget( 'WP_Widget_Recent_Posts' ); ?>
 
-					<?php if ( red_starter_categorized_blog() ) : // Only show the widget if site has multiple categories. ?>
+					
+
+			<!-- 		<?php if ( red_starter_categorized_blog() ) : // Only show the widget if site has multiple categories. ?>
 					<div class="widget widget_categories">
 						<h2 class="widget-title"><?php echo esc_html( 'Most Used Categories' ); ?></h2>
 						<ul>
@@ -40,12 +42,12 @@ get_header(); ?>
 						?>
 						</ul>
 					</div><!-- .widget -->
-					<?php endif; ?>
+					<?php endif; ?> -->
 
-					<?php
+					<!-- <?php
 						$archive_content = '<p>' . sprintf( esc_html( 'Try looking in the monthly archives. %1$s' ), convert_smilies( ':)' ) ) . '</p>';
 						the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$archive_content" );
-					?>
+					?> -->
 
 				</div><!-- .page-content -->
 			</section><!-- .error-404 -->
